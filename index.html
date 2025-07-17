@@ -4,30 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Static Website</title>
-    
+    <title>Welcome to My Pink Static Website</title>
+
     <!-- Embedded CSS -->
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #fce4ec; /* Soft pink background */
             color: #333;
+            text-align: center;
         }
 
         header {
-            text-align: center;
-            background-color: #4CAF50;
+            background-color: #ff80ab; /* Soft pink header */
             padding: 50px;
             color: white;
+            border-bottom: 5px solid #f48fb1; /* Slightly darker pink border */
         }
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
+        h1 {
+            font-size: 3em;
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun and playful font */
+        }
+
+        main {
+            background-color: #ffe0f0; /* Light pink background for main content */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        button {
+            background-color: #ff80ab; /* Button with matching pink */
             color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #f48fb1; /* Darker pink when hovered */
         }
     </style>
 </head>
@@ -35,24 +62,20 @@
 <body>
     <!-- HTML Content -->
     <header>
-        <h1>Welcome to My Static Website!</h1>
+        <h1>Welcome to My Pink Static Website!</h1>
         <p>This is a basic HTML page hosted on Azure Blob Storage.</p>
     </header>
 
     <!-- Main Content -->
     <main>
         <p>Feel free to explore the page!</p>
+        <button onclick="alert('Enjoy your girly site!')">Click Me!</button>
     </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 My Static Website</p>
-    </footer>
 
     <!-- Embedded JavaScript -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            alert("Welcome to my static website hosted on Azure Blob Storage!");
+        document.addEventListener('DOMContentLoaded', function () {
+            alert("Welcome to my girly pink website hosted on Azure Blob Storage!");
         });
     </script>
 </body>
